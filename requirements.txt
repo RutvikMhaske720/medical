@@ -1,0 +1,10 @@
+# This file keeps track of the packages required by MedhaJiva.
+
+openai-whisper
+streamlit
+google-genai
+python-dotenv
+pydantic
+fastapi
+uvicorn
+pandas

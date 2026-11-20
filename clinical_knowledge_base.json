@@ -1,0 +1,52 @@
+{
+    "conditions": [
+        {
+            "id": "C001",
+            "name": "Influenza",
+            "associated_symptoms": [
+                "fever",
+                "chills",
+                "cough",
+                "sore throat",
+                "runny nose",
+                "nasal congestion",
+                "body aches",
+                "headache",
+                "fatigue"
+            ],
+            "source": "https://www.cdc.gov/flu/signs-symptoms/",
+            "limitations": "Symptoms overlap with other respiratory infections."
+        },
+        {
+            "id": "C002",
+            "name": "Common Cold",
+            "associated_symptoms": [
+                "runny nose",
+                "nasal congestion",
+                "cough",
+                "sneezing",
+                "sore throat",
+                "headache",
+                "body aches",
+                "fever"
+            ],
+            "source": "https://www.cdc.gov/common-cold/about/index.html",
+            "limitations": "Symptoms overlap with influenza and other respiratory infections."
+        },
+        {
+            "id": "C003",
+            "name": "Norovirus Infection",
+            "associated_symptoms": [
+                "diarrhea",
+                "vomiting",
+                "nausea",
+                "stomach pain",
+                "fever",
+                "headache",
+                "body aches"
+            ],
+            "source": "https://www.cdc.gov/norovirus/about/index.html",
+            "limitations": "Symptoms alone cannot confirm norovirus infection."
+        }
+    ]
+}

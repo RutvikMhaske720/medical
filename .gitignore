@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+mj_env/
+.venv*/
+venv*/
+env*/
+
+# Environment Variables & Secrets (Keep API keys private)
+.env
+.env*.local
+*.env
+!.env.example
+
+# Local SQLite Database (Avoid committing patient data)
+*.db
+*.sqlite3
+medhajiva.db
+
+# Audio files & Temporary recordings
+audio/
+output/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+
+# Whisper model cache & torch weights
+.cache/
+*.pt
+*.pth
+*.bin
+
+# Streamlit local configuration
+.streamlit/secrets.toml
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+*.log
